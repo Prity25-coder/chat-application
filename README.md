@@ -1,16 +1,112 @@
-# React + Vite
+# ReactJS Chat Application 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive, single-page chat application built with ReactJS as part of a **UI Developer Internship Assignment**.
 
-Currently, two official plugins are available:
+Users can type a message and send it to display it instantly in the chat message thread.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Send and display chat messages dynamically.
+- Clean and user-friendly interface.
+- Responsive design for desktop and mobile devices.
+- Send messages using the Send button or Enter key.
+- Display message timestamps.
+- Prevent empty messages from being sent.
+- Automatically scroll to the latest message.
+- Built using React functional components and hooks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- ReactJS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Git and GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```text
+chat-application/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- Git (optional, for version control)
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone [https://github.com/Prity25-coder/chat-application]
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd chat-application
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+**5. Open the application**
+
+Open the local URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## 💬 How to Use
+
+1. Open the chat application.
+2. Type your message into the input field.
+3. Click the **Send** button or press **Enter**.
+4. Your message will appear in the chat thread above the input box.
+5. Continue sending messages to test the application.
+
+## 📸 Screenshots
+
+Add a screenshot of your completed application here.
+
+```markdown
+![Chat Application Live]["https://chat-application-kappa-blue.vercel.app/"]
+```
+
+## 📌 Assignment Scope
+
+This project focuses on the frontend implementation of a chat interface. It demonstrates React state management, event handling, input validation, and responsive UI design.
+
+**Note:** This is a frontend-only application. Messages are stored in React state and are not saved permanently. Backend integration and real-time messaging between different users are not included.
+
+
+
+Developed as part of a **UI Developer Internship Assignment**.
+
